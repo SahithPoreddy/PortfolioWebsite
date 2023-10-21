@@ -1,48 +1,41 @@
 <!DOCTYPE html>
 
+<!-- https://responsivenavigationbar.netlify.app/ -->
+<!-- https://blog.devgenius.io/create-a-responsive-navigation-bar-in-html-css-and-js-4648ce90fd6c -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="CSS/Styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Inter:wght@200&family=Merriweather:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
+    <script
+      src="https://kit.fontawesome.com/13a3d36263.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Poreddy's Porfolio</title>
   </head>
   <body>
     <!-- Navigation bar -->
-    <header>
-      <h2>SahithPoreddy</h2>
-      <ul class="nav">
-        <li class="navLink">
-          <a href="#">Projects</a>
-        </li>
-        <li class="navLink">
-          <a href="#">Blog</a>
-        </li>
-        <li class="navLink">
-          <a href="#">Resume</a>
-        </li>
-        <li class="navLinkLast">
-          <a href="#">Social</a>
-        </li>
-      </ul>
-      <div class="navbarToggleDiv">
-        <a href="#" class="material-symbols-outlined"> menu </a>
+    <nav class="navBar">
+      <div class="logoHeader">
+        <a href="#" class="logo">
+          Sahith<span class="poreddy">Poreddy</span>
+        </a>
+        <button class="navBarToggle">
+          <i class="fa-solid fa-bars toggleButton"></i>
+        </button>
       </div>
-    </header>
+      <ul class="mainNav">
+        <li><a class="active" href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Social</a></li>
+      </ul>
+    </nav>
 
     <!-- Main content. Here the content loads dynamically -->
     <div id="MainContent"></div>
 
-    <script src="JavaScript/app.js"></script>
+    <script src="JavaScript/script.js"></script>
   </body>
 </html>
