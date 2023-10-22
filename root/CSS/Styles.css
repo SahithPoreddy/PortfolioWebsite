@@ -52,6 +52,22 @@ li {
     display: none;
 }
 
+.footerSection {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSection ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.footerIcons {
+    font-size: 25px;
+}
+
 @media screen and (max-width: 992px) {
     .navBar {
         display: flex;
@@ -91,5 +107,9 @@ li {
     .logoHeader {
         width: 100%;
         justify-content: space-between;
+    }
+
+    .footerIcons {
+        margin-inline: 20px;
     }
 }
