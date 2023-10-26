@@ -1,0 +1,74 @@
+.IntroContent {
+    background-color: #142850;
+    padding: 5% 0 5% 0;
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.Intro {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Picture img {
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+}
+
+#HelloThere {
+    font-size: 4rem;
+    color: white;
+}
+
+#BriefDescription {
+    color: white;
+    width: 60%;
+    margin-top: 2%;
+    font-size:1.25rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .MainContent {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+
+    .IntroContent {
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .Picture {
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+        padding: 5% 0 5% 0;
+    }
+
+    .Picture img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+    .Intro {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 5% 0 5% 0;
+    }
+}

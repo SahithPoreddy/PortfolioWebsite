@@ -1,0 +1,25 @@
+.footerSection {
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footerSection ul {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.footerIcons {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 992px) {
+    .footerIcons {
+        margin-inline: 20px;
+    }
+
+    .footerSection {
+        width: 100%;
+    }
+}
