@@ -1,0 +1,74 @@
+<div class="ImageContainer">
+  <img class="RepPicture" src="Images/Rectangle 30.jpg" />
+</div>
+<div class="RepParagraphs">
+  <div id="MoreAboutMeHeadingDiv">
+    <h2 id="MoreAboutMeHeading">Projects</h2>
+  </div>
+  <div class="RepDescription">
+    The primary focus of a frontend developer lies in making a
+    beautifully crafted web pages which is both user friendly and
+    responsive across all devices. I've learned many things not by
+    attending lectures but by doing real world projects. I've made some
+    responsive websites to become better at web development. To add, the
+    website your currently viewing is a project itself. Various tech
+    stacks have been used over the course of making these websites
+    starting from basic building blocks like Vanilla CSS and JavaScript
+    to modern frameworks like tailwind CSS and React JS Library.
+  </div>
+  <div id="LearnMoreDiv">
+    <button id="LearnMoreButton">Learn More</button>
+  </div>
+</div>
+
+<div class="IntroContent">
+  <div class="Intro">
+    <span id="HelloThere">Hello There !</span>
+    <span id="BriefDescription">
+      Im Sahith Chandra Poreddy, currently in my junior year of undergrad.
+      Im a frontend developer and a tech enthusiast
+    </span>
+  </div>
+  <div class="Picture">
+  <img src="Images/IMG_20220429_102403_031.jpg" />
+  </div>
+</div>
+
+<h3>More about me</h3>
+<div class="Section"></div>
+
+<div class="carousel">
+  <i class="fa-solid fa-chevron-left carousel-button" id="prev"></i>
+  <i class="fa-solid fa-chevron-right carousel-button" id="next"></i>
+  <div class="carousel-container">
+    <div class="carousel-slides">
+      <img src="Images/Image-3.jpg" alt="Image - 3Clone" id="last-clone" />
+      <img src="Images/Image-1.jpg" alt="Image - 1" />
+      <img src="Images/Image-2.jpg" alt="Image - 2" />
+      <img src="Images/Image-3.jpg" alt="Image - 3" />
+      <img src="Images/Image-1.jpg" alt="Image - 1Clone" id="first-clone" />
+    </div>
+  </div>
+</div>
+
+<div class="projectContainer">
+  <h2 id="projects">Projects</h2>
+  <h3 class="sideHeadings">IEEE Landing webpage :</h3>
+  <img src="Images/Rectangle 4.jpg" alt="Image - 1" />
+  <p class="projectDescription">
+    This is where the content related to IEEE landing website will go. Brief
+    description is displayed in this block. Contents like the duration for
+    completion of the project, tech stack used for building the project and
+    the steps involved in devloping the website. For example, in this case,
+    tech stack involved is HTML, CSS and Bootstrap. HTML is used for basic
+    structure of website, CSS for adding styling and responsivity to the
+    website and finally Bootstrap is to import all the pre-defined This is
+    where the content related to IEEE landing website will go. Brief
+    description is displayed in this block. Contents like the duration for
+    completion of the project, tech stack used for building the project and
+    the steps involved in devloping the website. For example, in this case,
+    tech stack involved is HTML, CSS and Bootstrap. HTML is used for basic
+    structure of website, CSS for adding styling and responsivity to the
+    website and finally Bootstrap is to import all the pre-defined.
+  </p>
+</div>

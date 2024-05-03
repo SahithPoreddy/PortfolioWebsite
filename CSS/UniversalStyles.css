@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-t {
+  margin-top: 5%;
+}
+
+.img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.button {
+  background-color: lightsalmon;
+  padding: 5px 20px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonDiv {
+  justify-content: space-around;
+}
+
+.p-y {
+  padding: 1.5% 0;
+}
+
+.p-x {
+  padding: 0 1.5%;
+}
+
+.pFont {
+  font-size: large;
+}
+
+.margin {
+  margin-left: 2%;
+  margin-right: 2%;
+}
