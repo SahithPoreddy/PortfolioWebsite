@@ -1,51 +1,55 @@
 .projectContainer {
-    background-color: #FF7999;
-    padding: 2% 2%;
+  background-color: rgba(255, 121, 153, 0.23);
+  margin: 2%;
+  padding: 2%;
 }
 
-#projects {
-    max-width: min-content;
-    margin: auto;
-    font-size: 50px;
+.project > img {
+  height: 50%;
+  width: 50%;
 }
 
 .sideHeadings {
-    font-weight: lighter;
-    font-size: 30px;
-    padding: 2rem 0;
+  font-weight: lighter;
+  font-size: 30px;
+  padding: 2rem 0;
 }
 
 .projectContainer img {
-    max-width:100%;
-    display: block;
-    height: auto;
-    margin: auto;
-    padding: 2rem 0;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding: 2rem 0;
 }
 
 .projectDescription {
-    font-weight: lighter;
-    font-size: 1.5rem;
-    padding: 2rem 2rem;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  padding: 2rem 2rem;
 }
 
 @media screen and (max-width: 992px) {
-    #projects {
-        font-size: 30px;
-        padding-top: 20px;
-    }
+  .projectContainer > h2 {
+    padding-top: 10%;
+  }
 
-    .sideHeadings {
-        font-size: 25px;
-    }
+  .project > img {
+    height: 95%;
+    width: 95%;
+  }
 
-    .projectContainer img {
-        padding: 0;
-    }
+  .sideHeadings {
+    padding: 10% 0 0 0;
+    font-size: 140%;
+  }
 
-    .projectDescription {
-        padding: 2rem 1rem;
-        font-size: 1.25rem;
-    }
+  .projectContainer {
+    margin: 0 0 10% 0;
+  }
 
+  .projectDescription {
+    text-align: justify;
+    padding: 3%;
+  }
 }

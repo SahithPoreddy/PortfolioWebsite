@@ -1,0 +1,21 @@
+.dots {
+  display: inline;
+}
+
+.more {
+  display: none;
+}
+
+.myBtn {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.more > a {
+  text-decoration: underline;
+  color: blue;
+  font-size: medium;
+  font-weight: lighter;
+}

@@ -1,0 +1,16 @@
+.container {
+  background-color: azure;
+  margin: 0 2% 0 2%;
+  padding: 5%;
+}
+
+.unit {
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .unit > p {
+    margin-top: 10%;
+    padding: 2%;
+  }
+}

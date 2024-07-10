@@ -38,7 +38,7 @@
 }
 
 .carousel {
-  width: 60%;
+  width: 50%;
   position: relative;
 }
 
@@ -46,6 +46,10 @@
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.carousel > ul > li {
+  background-color: antiquewhite;
 }
 
 .carousel-slide {
@@ -58,10 +62,7 @@
   transition-delay: 200ms;
   border-radius: 1rem;
   overflow: hidden;
-}
-
-.text-content {
-  overflow: hidden;
+  text-align: justify;
 }
 
 .show {
@@ -88,10 +89,6 @@
 .carousel-slide > div > img {
   height: 300px;
   width: 300px;
-}
-
-#readMoreLink {
-  text-decoration: none;
 }
 
 .mar {

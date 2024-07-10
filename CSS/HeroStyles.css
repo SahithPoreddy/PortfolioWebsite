@@ -10,8 +10,40 @@
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+}
+
+.IntroButtons {
+  margin-top: 7%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.IntroButtons > button {
+  border: none;
+  padding: 3% 4% 3% 4%;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 2%;
+}
+
+.IntroButtons > button:nth-child(1) {
+  background-image: linear-gradient(to right, lightblue, violet);
+}
+
+.IntroButtons > button:nth-child(2) {
+  background-image: linear-gradient(to right, orange, salmon);
+}
+
+.IntroButtons > button > a > i {
+  padding-left: 2%;
+}
+
+.IntroButtons > button:hover {
+  size: 150%;
 }
 
 .Picture {
@@ -41,6 +73,21 @@
 }
 
 @media screen and (max-width: 992px) {
+  .IntroButtons {
+    width: 90%;
+  }
+
+  .IntroButtons > button > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Envelope {
+    font-size: 20px;
+  }
+
   .MainContent {
     margin: 0;
     padding: 0;

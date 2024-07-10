@@ -6,15 +6,17 @@
     <link rel="stylesheet" type="text/css" href="../CSS/UniversalStyles.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/NavigationStyles.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/FooterStyles.css" />
-    <link rel="stylesheet" type="text/css" href="../CSS/HeroStyles.css" />
-    <link rel="stylesheet" type="text/css" href="../CSS/MoreAboutMe.css" />
     <link rel="stylesheet" type="text/css" href="../CSS/HorizontalRule.css" />
-    <link rel="stylesheet" type="text/css" href="../CSS/Carousel.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/Projects.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/Overflow.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/Animation.css" />
     <script
       src="https://kit.fontawesome.com/13a3d36263.js"
       crossorigin="anonymous"
     ></script>
     <script src="../JavaScript/navigation.js"></script>
+    <script src="../JavaScript/overflow.js"></script>
+    <script src="../JavaScript/animation.js" defer></script>
     <title>Poreddy's Porfolio</title>
   </head>
   <body>
@@ -34,13 +36,189 @@
       <ul id="mainNav" class="mainNav">
         <li><a href="../index.html">Home</a></li>
         <li class="underline"><a href="Pages/Projects.html">Projects</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="Assets/Resume.pdf">Resume</a></li>
+        <li><a href="./Blog.html">Blog</a></li>
+        <li><a href="../Assets/Resume.pdf">Resume</a></li>
         <li><a href="#social">Social</a></li>
       </ul>
     </nav>
     <!-- End of Navigation bar -->
     <!-- Main content -->
+    <div class="projectContainer animationTwo">
+      <div class="project">
+        <h2 class="sideHeadings">IEEE Landing Website :</h2>
+        <img src="../Assets/Images/Screenshot (50).png" />
+        <div class="projectDescription">
+          <span style="font-weight: bold">IEEE Landing Page Development</span>
+          <br /><br />
+          As part of my summer internship at Geethanjali College of Engineering
+          and Technology, I had the opportunity to design and develop an
+          engaging and responsive IEEE landing page. Utilizing my skills in
+          JavaScript, Bootstrap, and HTML, I created a dynamic and visually
+          appealing web page tailored to meet the needs of the IEEE community.
+          <br />
+          <br />
+          <span style="font-weight: bold">Key Features</span>: <br />
+          <span style="text-decoration: underline">Responsive Design</span>:
+          Leveraged Bootstrap's powerful grid system to ensure the landing page
+          is fully responsive across various devices, providing an optimal
+          viewing experience on desktops, tablets, and mobile phones. <br />
+          <span style="text-decoration: underline">Interactive Elements</span>:
+          Incorporated JavaScript to enhance user interaction with dynamic
+          content, smooth animations, and seamless transitions. Modern UI/UX:
+          Focused on delivering a clean and modern user interface, aligned with
+          IEEE's branding guidelines, to create an intuitive and engaging user
+          experience. <br />
+          <span style="text-decoration: underline"
+            >Cross-Browser Compatibility</span
+          >: Ensured consistent functionality and appearance across multiple web
+          browsers, providing a reliable user experience for all visitors.
+          <br />
+          <span style="text-decoration: underline">Accessibility</span>:
+          Implemented accessibility best practices to make the landing page
+          usable for individuals with disabilities, following WCAG guidelines.
+          <br />
+          <span style="text-decoration: underline">Technologies Used</span>:
+          <br />
+          <span style="text-decoration: underline">JavaScript</span>: Enabled
+          dynamic content and enhanced user interactions.
+          <br />
+          <span style="text-decoration: underline">Bootstrap</span>: Provided a
+          responsive layout and streamlined the design process with pre-styled
+          components. <br />
+          <span style="text-decoration: underline">HTML</span>: Structured the
+          content effectively, adhering to semantic HTML5 standards. This
+          project not only enhanced my technical skills but also gave me
+          valuable experience in web development, user interface design, and
+          collaborative work in a professional environment. The IEEE landing
+          page is now a pivotal part of my portfolio, showcasing my ability to
+          create functional and aesthetically pleasing web applications.
+        </div>
+        <div class="flex buttonDiv">
+          <button class="button">
+            <a
+              href="https://github.com/SahithPoreddy/IEEE-Website"
+              target="_blank"
+              >GitHub</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="project">
+        <h2 class="sideHeadings">Exam Branch web application :</h2>
+        <img src="../Assets/Images/Screenshot (39).png" />
+        <div class="projectDescription">
+          As part of my minor project in the junior year of my college
+          education, me along with a team of enthusiastic web developers and a
+          senior had focussed on solving a major issue prevailing in the college
+          i.e. a full stack application to digitalize the application process of
+          registrations like supplementary exams, written tests and
+          re-evaluation.
+          <br />
+          <br />
+          <span style="font-weight: bold">Key Features</span>: <br />
+          <span style="text-decoration: underline">Responsive Design</span>:
+          Made sure that the application is accessed on any device by making it
+          responsive. Material UI and tailwind CSS are used to achieve this.
+          <br />
+          <span style="text-decoration: underline">Student info</span>: Once
+          place to access every information related to a student. Things like
+          the subjects the students have registered for, student roll number,
+          year, number of backlogs are present.<br />
+          <span style="text-decoration: underline"
+            >Cross-Browser Compatibility</span
+          >: Ensured consistent functionality and appearance across multiple web
+          browsers, providing a reliable user experience for all visitors.
+          <br />
+          <span style="text-decoration: underline">Download and Upload</span>:
+          Existing information can be downloaded from the web application for
+          data analysis or new information can be uploaded to update the
+          existing data.
+          <br />
+          <span style="text-decoration: underline">Data modification</span>:
+          Data related to the deadlines for the exams registrations, fines, fees
+          etc can be updated without any hassle
+          <br />
+          <span style="text-decoration: underline">Technologies Used</span>:
+          <br />
+          <span style="text-decoration: underline">Typescript + React JS</span>:
+          Enabled to develop frontend components with a strongly typed frontend
+          scripting language.
+          <br />
+          <span style="text-decoration: underline">Express JS</span>: Used as
+          the backend framework, built on top of Node JS. <br />
+          <span style="text-decoration: underline">MySQL</span>: Relational
+          database used to store the data in the form of tables. Since most of
+          the data used forms a table, it made sense to use this database. It is
+          found to be relatively simple to implement and use.
+        </div>
+        <div class="flex buttonDiv">
+          <button class="button">
+            <a
+              href="https://github.com/SahithPoreddy/ExamBranchClient2.0"
+              target="_blank"
+              >GitHub</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="project">
+        <h2 class="sideHeadings">IEEE Landing Website :</h2>
+        <img src="../Assets/Images/Screenshot (50).png" />
+        <div class="projectDescription">
+          As part of my summer internship at Geethanjali College of Engineering
+          and Technology, I had the opportunity to design and develop an
+          engaging and responsive IEEE landing page. Utilizing my skills in
+          JavaScript, Bootstrap, and HTML, I created a dynamic and visually
+          appealing web page tailored to meet the needs of the IEEE community.
+          <br />
+          <br />
+          <span style="font-weight: bold">Key Features</span>: <br />
+          <span style="text-decoration: underline">Responsive Design</span>:
+          Leveraged Bootstrap's powerful grid system to ensure the landing page
+          is fully responsive across various devices, providing an optimal
+          viewing experience on desktops, tablets, and mobile phones. <br />
+          <span style="text-decoration: underline">Interactive Elements</span>:
+          Incorporated JavaScript to enhance user interaction with dynamic
+          content, smooth animations, and seamless transitions. Modern UI/UX:
+          Focused on delivering a clean and modern user interface, aligned with
+          IEEE's branding guidelines, to create an intuitive and engaging user
+          experience. <br />
+          <span style="text-decoration: underline"
+            >Cross-Browser Compatibility</span
+          >: Ensured consistent functionality and appearance across multiple web
+          browsers, providing a reliable user experience for all visitors.
+          <br />
+          <span style="text-decoration: underline">Accessibility</span>:
+          Implemented accessibility best practices to make the landing page
+          usable for individuals with disabilities, following WCAG guidelines.
+          <br />
+          <span style="text-decoration: underline">Technologies Used</span>:
+          <br />
+          <span style="text-decoration: underline">JavaScript</span>: Enabled
+          dynamic content and enhanced user interactions.
+          <br />
+          <span style="text-decoration: underline">Bootstrap</span>: Provided a
+          responsive layout and streamlined the design process with pre-styled
+          components. <br />
+          <span style="text-decoration: underline">HTML</span>: Structured the
+          content effectively, adhering to semantic HTML5 standards. This
+          project not only enhanced my technical skills but also gave me
+          valuable experience in web development, user interface design, and
+          collaborative work in a professional environment. The IEEE landing
+          page is now a pivotal part of my portfolio, showcasing my ability to
+          create functional and aesthetically pleasing web applications.
+        </div>
+        <div class="flex buttonDiv">
+          <button class="button">
+            <a
+              href="https://github.com/SahithPoreddy/IEEE-Website"
+              target="_blank"
+              >GitHub</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- End of Main content -->
     <!-- Horizontal Rule -->
     <hr id="HorizontalRule" />

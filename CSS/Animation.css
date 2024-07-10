@@ -1,13 +1,13 @@
 .animationOne {
   opacity: 0;
-  transform: translateX(-300px);
+  transform: translateX(30px);
   transition: all 0.7s ease-out;
   transition-delay: 0.4s;
 }
 
 .animationTwo {
   opacity: 0;
-  transform: translateY(300px);
+  transform: translateY(30px);
   transition: all 0.7s ease-out;
   transition-delay: 0.4s;
 }

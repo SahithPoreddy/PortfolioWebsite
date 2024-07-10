@@ -11,6 +11,9 @@
     <link rel="stylesheet" type="text/css" href="CSS/HorizontalRule.css" />
     <link rel="stylesheet" type="text/css" href="CSS/Carousel.css" />
     <link rel="stylesheet" type="text/css" href="CSS/Animation.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/BgAnimation.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/Overflow.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/TechStack.css" />
     <script
       src="https://kit.fontawesome.com/13a3d36263.js"
       crossorigin="anonymous"
@@ -18,6 +21,8 @@
     <script src="JavaScript/navigation.js"></script>
     <script src="JavaScript/carousel.js"></script>
     <script src="JavaScript/animation.js" defer></script>
+    <script src="JavaScript/bgAnimation.js" defer></script>
+    <script src="JavaScript/overflow.js"></script>
     <title>Poreddy's Porfolio</title>
   </head>
   <body>
@@ -37,7 +42,7 @@
       <ul id="mainNav" class="mainNav">
         <li class="underline"><a href="#">Home</a></li>
         <li><a href="Pages/Projects.html">Projects</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="Pages/Blog.html">Blog</a></li>
         <li><a href="Assets/Resume.pdf" target="_blank">Resume</a></li>
         <li><a href="#social">Social</a></li>
       </ul>
@@ -52,6 +57,18 @@
             Im Sahith Chandra Poreddy, currently in my junior year of undergrad.
             I'm a frontend developer and a tech enthusiast
           </span>
+          <div class="IntroButtons">
+            <button>
+              <a href="https://linkedin.com/in/sahith-chandra-poreddy-1b37b3242"
+                >Connect on <i class="fa-brands fa-linkedin"></i
+              ></a>
+            </button>
+            <button>
+              <a href="mailto:sahith12poreddy@gmail.com"
+                >Send an <i class="fa-regular fa-envelope Envelope"></i
+              ></a>
+            </button>
+          </div>
         </div>
         <div class="Picture">
           <img src="Assets/Images/Profile.jpg" />
@@ -82,7 +99,9 @@
               Library.
             </p>
             <div class="flex buttonDiv">
-              <button class="button">Learn More</button>
+              <button class="button">
+                <a href="Pages/Projects.html">Learn More</a>
+              </button>
             </div>
           </div>
         </div>
@@ -99,146 +118,67 @@
               Hackathons and Events
             </h2>
             <p class="pFont p-y">
-              The primary focus of a frontend developer lies in making a
-              beautifully crafted web pages which is both user friendly and
-              responsive across all devices. I've learned many things not by
-              attending lectures but by doing real world projects. I've made
-              some responsive websites to become better at web development. To
-              add, the website your currently viewing is a project itself.
-              Various tech stacks have been used over the course of making these
-              websites starting from basic building blocks like Vanilla CSS and
-              JavaScript to modern frameworks like tailwind CSS and React JS
-              Library.
+              Attending hackathons and tech events are pivotal for any person
+              pursuing interest in tech. It opens up a lot new opportunities and
+              allows to meet tech minds within and outside of the industry. I
+              have personally attended many insightful events organised by some
+              open source communities at various places. I made new connections
+              which helped me sharpen my knowledge in the field of computer
+              science. It helped me tackle my fears of public speaking and
+              initiating conversation with new masses. These skills are
+              important when I enter my professional career.
             </p>
             <div class="flex buttonDiv">
-              <button class="button">Learn More</button>
-            </div>
-          </div>
-        </div>
-        <div class="flex p-y Section animationTwo">
-          <div class="ImageContainer">
-            <img
-              src="Assets/Images/Experience.png"
-              alt="Experience"
-              class="img ImageContainer"
-            />
-          </div>
-          <div class="RepParagraphs">
-            <h2 class="align-center" style="font-size: xx-large">Experience</h2>
-            <p class="pFont p-y">
-              The primary focus of a frontend developer lies in making a
-              beautifully crafted web pages which is both user friendly and
-              responsive across all devices. I've learned many things not by
-              attending lectures but by doing real world projects. I've made
-              some responsive websites to become better at web development. To
-              add, the website your currently viewing is a project itself.
-              Various tech stacks have been used over the course of making these
-              websites starting from basic building blocks like Vanilla CSS and
-              JavaScript to modern frameworks like tailwind CSS and React JS
-              Library.
-            </p>
-            <div class="flex buttonDiv">
-              <button class="button">Learn More</button>
+              <button class="button">
+                <a href="Pages/HackathonsAndEvents.html">Learn More</a>
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <h1 id="MoreAboutMeHeading" style="text-align: center; margin-top: 2%">
-        Blog Posts
-      </h1>
-      <section class="carousel-container">
-        <div class="carousel" data-carousel>
-          <button
-            class="carousel-button prev"
-            data-carousel-button="prev"
-            onclick="Event(-1)"
-          >
-            <i class="fa-solid fa-chevron-left"></i>
-          </button>
-          <button
-            class="carousel-button next"
-            data-carousel-button="next"
-            onclick="Event(1)"
-          >
-            <i class="fa-solid fa-chevron-right"></i>
-          </button>
-          <ul class="data-slides">
-            <li class="carousel-slide data-active" id="sampleId">
-              <h3>How to get started with web development</h3>
-              <div>
-                <img
-                  src="Assets/Images/WebDevelopment.jpg"
-                  alt="Web Development"
-                />
-              </div>
-              <p class="text-content">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis, sint! Quia iusto ex autem rerum porro quis ipsam.
-                Voluptate non perspiciatis aliquid distinctio fuga fugit optio
-                cumque, maiores asperiores tempore. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ex sequi nam mollitia ipsa magnam
-                nulla consequatur non optio molestias. Consequatur earum quia
-                libero eaque blanditiis quae ea, pariatur temporibus totam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Perspiciatis ea enim eius facilis, officia ducimus dolorum
-                ratione reiciendis distinctio iure molestiae voluptatum ab
-                veniam earum sequi eum ipsam in adipisci.
-              </p>
-            </li>
-            <li class="carousel-slide">
-              <h3>Getting started with open source</h3>
-              <div>
-                <img src="Assets/Images/OpenSource.png" alt="Open Source" />
-              </div>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis, sint! Quia iusto ex autem rerum porro quis ipsam.
-                Voluptate non perspiciatis aliquid distinctio fuga fugit optio
-                cumque, maiores asperiores tempore. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ex sequi nam mollitia ipsa magnam
-                nulla consequatur non optio molestias. Consequatur earum quia
-                libero eaque blanditiis quae ea, pariatur temporibus totam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Perspiciatis ea enim eius facilis, officia ducimus dolorum
-                ratione reiciendis distinctio iure molestiae voluptatum ab
-                veniam earum sequi eum ipsam in adipisci.
-              </p>
-            </li>
-            <li class="carousel-slide">
-              <h3>Top 10 things to do in college days</h3>
-              <div>
-                <img src="Assets/Images/College.jpeg" alt="College" />
-              </div>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis, sint! Quia iusto ex autem rerum porro quis ipsam.
-                Voluptate non perspiciatis aliquid distinctio fuga fugit optio
-                cumque, maiores asperiores tempore. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Ex sequi nam mollitia ipsa magnam
-                nulla consequatur non optio molestias. Consequatur earum quia
-                libero eaque blanditiis quae ea, pariatur temporibus totam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Perspiciatis ea enim eius facilis, officia ducimus dolorum
-                ratione reiciendis distinctio iure molestiae voluptatum ab
-                veniam earum sequi eum ipsam in adipisci.
-              </p>
-            </li>
-          </ul>
+      <h2
+        class="align-center"
+        style="font-size: xx-large; margin: 100px 0 50px 0"
+      >
+        Technology
+      </h2>
+      <div class="skills-container">
+        <div class="skill">
+          <i class="fa-brands fa-html5" style="color: #ff780a"></i>
+          <span>HTML</span>
         </div>
-      </section>
-      <div class="mar">
-        <button
-          style="
-            border: none;
-            background-color: lightsalmon;
-            padding: 1% 4% 1% 4%;
-            margin-bottom: 2%;
-            font-size: 1.1rem;
-            cursor: pointer;
-          "
-        >
-          <a href="#">Read More</a>
-        </button>
+        <div class="skill">
+          <i class="fa-brands fa-css3-alt" style="color: #3777e6"></i>
+          <span>CSS</span>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-js" style="color: #43b156"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-code" style="color: #0a0a0a"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-react" style="color: #74c0fc"></i>
+          <span>React JS</span>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-node" style="color: #4acc38"></i>
+          <span>Node JS</span>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-server"></i>
+          <span>Express JS</span>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-database" style="color: #0a0a0a"></i>
+          <span>MongoDB</span>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-database" style="color: #0a0a0a"></i>
+          <span>MySQL</span>
+        </div>
       </div>
     </div>
     <!-- End of Main content -->
