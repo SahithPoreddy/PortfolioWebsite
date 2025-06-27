@@ -1,5 +1,6 @@
 #MoreAboutMeHeading {
   font-size: 200%;
+  text-align: center;
 }
 
 .RepParagraphs {
@@ -15,6 +16,11 @@
 
 .RepParagraphs > p {
   text-align: justify;
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 992px) {

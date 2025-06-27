@@ -41,9 +41,9 @@
       </div>
       <ul id="mainNav" class="mainNav">
         <li class="underline"><a href="#">Home</a></li>
-        <li><a href="Pages/Projects.html">Projects</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="Pages/Blog.html">Blog</a></li>
-        <li><a href="Assets/Resume.pdf" target="_blank">Resume</a></li>
+        <li><a href="Assets/Resume_2.pdf" target="_blank">Resume</a></li>
         <li><a href="#social">Social</a></li>
       </ul>
     </nav>
@@ -54,17 +54,19 @@
         <div class="Intro animationOne">
           <span id="HelloThere">Hello There !</span>
           <span id="BriefDescription">
-            Im Sahith Chandra Poreddy, currently in my junior year of undergrad.
-            I'm a frontend developer and a tech enthusiast
+            Im Sahith Chandra Poreddy, currently in my senior year of undergrad.
+            I'm a full stack developer and a tech enthusiast
           </span>
           <div class="IntroButtons">
             <button>
-              <a href="https://linkedin.com/in/sahith-chandra-poreddy-1b37b3242"
+              <a
+                href="https://linkedin.com/in/sahith-chandra-poreddy-1b37b3242"
+                target="_blank"
                 >Connect on <i class="fa-brands fa-linkedin"></i
               ></a>
             </button>
             <button>
-              <a href="mailto:sahith12poreddy@gmail.com"
+              <a href="mailto:sahith12poreddy@gmail.com" target="_blank"
                 >Send an <i class="fa-regular fa-envelope Envelope"></i
               ></a>
             </button>
@@ -75,64 +77,164 @@
         </div>
       </div>
       <div class="gap-t margin">
-        <h1 id="MoreAboutMeHeading">More about me</h1>
-        <div class="flex p-y Section animationTwo">
+        <h1 id="MoreAboutMeHeading">Professional Experience Summary</h1>
+        <div class="p-y Section animationTwo">
           <div class="ImageContainer">
-            <img
-              src="Assets/Images/Project.webp"
-              alt="Project"
-              class="img ImageContainer"
-            />
+            <img src="Assets/Images/Project.jpg" alt="Project" class="img" />
           </div>
           <div class="RepParagraphs">
-            <h2 class="align-center" style="font-size: xx-large">Projects</h2>
-            <p class="pFont p-y">
-              The primary focus of a frontend developer lies in making a
-              beautifully crafted web pages which is both user friendly and
-              responsive across all devices. I've learned many things not by
-              attending lectures but by doing real world projects. I've made
-              some responsive websites to become better at web development. To
-              add, the website your currently viewing is a project itself.
-              Various tech stacks have been used over the course of making these
-              websites starting from basic building blocks like Vanilla CSS and
-              JavaScript to modern frameworks like tailwind CSS and React JS
-              Library.
-            </p>
-            <div class="flex buttonDiv">
-              <button class="button">
-                <a href="Pages/Projects.html">Learn More</a>
-              </button>
-            </div>
+            <ul class="Summary">
+              <li>
+                <b>Position:</b> Product Developer Intern(Sep-2024 to Jun-2025)
+              </li>
+              <li><b>Domain:</b> Cybersecurity</li>
+              <li>
+                <b>Technology:</b> C++ | Operating Systems | EDR | Threat
+                hunting
+              </li>
+            </ul>
+            <br />
+            <h3>Key Responsibilities and Contributions:</h3>
+            <br />
+            <ul class="ExperienceList Summary">
+              <li>
+                <b>Operating Systems Expertise:</b> Gained hands-on experience
+                with multiple operating systems, including Linux distributions
+                (Red Hat, Ubuntu, Rocky) and Windows, enhancing proficiency in
+                system administration and configuration in diverse environments.
+              </li>
+              <li>
+                <b>Development of Logger for EDR Software:</b> Designed and
+                implemented a logging solution for an existing Endpoint
+                Detection and Response (EDR) system using the open-source tool
+                Fluent Bit, improving system monitoring and data collection
+                capabilities.
+              </li>
+              <li>
+                <b>Contribution to Threat Hunting Tool:</b> Actively
+                participated in the development of a threat hunting tool,
+                contributing to its functionality and aiding in proactive
+                identification and mitigation of cyber threats.
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="flex p-y Section animationTwo">
-          <div class="ImageContainer">
+        <div class="p-y Section animationTwo gap-t" id="projects">
+          <h1 id="MoreAboutMeHeading">Projects</h1>
+          <div class="ImageContainer gap-t">
+            <img src="Assets/Images/Chess.png" alt="Project" class="img" />
+          </div>
+          <div class="RepParagraphs gap-t">
+            <ul class="Summary">
+              <li>
+                <b>Project Name:</b> Chess Game using C++ and minimax algorithm
+              </li>
+              <li><b>Overview:</b><br /></li>
+              <li>
+                <ul class="ExperienceList Summary">
+                  <li>
+                    The chess game is a two-player strategy game implemented in
+                    C++ with an AI opponent powered by the minimax algorithm.
+                  </li>
+                  <li>
+                    The program simulates a standard chessboard, enforces chess
+                    rules, and enables gameplay between a human player and an AI
+                    or two players, depending on the implementation.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>GitHub:</b>
+                <a href="https://github.com/SahithPoreddy/Chess" target="_blank"
+                  >Chess</a
+                >
+                <br />
+                <b>Video:</b>
+                <a
+                  href="https://www.youtube.com/watch?v=8b1a9k2g4eY"
+                  target="_blank"
+                  >Chess Game Video</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-y Section animationTwo gap-t">
+          <h1 id="MoreAboutMeHeading">
+            Exam Branch Management System using MERN
+          </h1>
+          <div class="ImageContainer gap-t">
             <img
-              src="Assets/Images/Events.jpg"
-              alt="Events"
-              class="img ImageContainer"
+              src="Assets/Images/ExamBranch.jpeg"
+              alt="Project"
+              class="img"
             />
           </div>
-          <div class="RepParagraphs">
-            <h2 class="align-center" style="font-size: xx-large">
-              Hackathons and Events
-            </h2>
-            <p class="pFont p-y">
-              Attending hackathons and tech events are pivotal for any person
-              pursuing interest in tech. It opens up a lot new opportunities and
-              allows to meet tech minds within and outside of the industry. I
-              have personally attended many insightful events organised by some
-              open source communities at various places. I made new connections
-              which helped me sharpen my knowledge in the field of computer
-              science. It helped me tackle my fears of public speaking and
-              initiating conversation with new masses. These skills are
-              important when I enter my professional career.
-            </p>
-            <div class="flex buttonDiv">
-              <button class="button">
-                <a href="Pages/HackathonsAndEvents.html">Learn More</a>
-              </button>
-            </div>
+          <div class="RepParagraphs gap-t">
+            <ul class="Summary">
+              <li><b>Overview:</b><br /></li>
+              <li>
+                <ul class="ExperienceList Summary">
+                  <li>
+                    The Exam Branch Application is a robust web-based solution
+                    developed to streamline and modernize the examination
+                    processes of a college's exam branch
+                  </li>
+                  <li>
+                    Built using the MERN stack (React, Express, MySQL) and
+                    enhanced with an AI assistant powered by Ollama, the
+                    application facilitates efficient exam registration, data
+                    maintenance, and insightful data analysis, significantly
+                    improving operational efficiency for staff.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>GitHub:</b>
+                <a
+                  href="https://github.com/paturikaustubh/ExamBranch2.0-Client"
+                  target="_blank"
+                  >Web App</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-y Section animationTwo gap-t">
+          <h1 id="MoreAboutMeHeading">
+            Autonomous Drone using pixhawk and mission planner
+          </h1>
+          <div class="ImageContainer gap-t">
+            <img src="Assets/Images/Drone.jpg" alt="Project" class="img" />
+          </div>
+          <div class="RepParagraphs gap-t">
+            <ul class="Summary">
+              <li><b>Overview:</b><br /></li>
+              <li>
+                <ul class="ExperienceList Summary">
+                  <li>
+                    Utilized the Pixhawk flight controller to manage autonomous
+                    flight operations, enabling precise control, sensor
+                    integration, and reliable navigation for the hexa drone
+                    through robust hardware and firmware capabilities.
+                  </li>
+                  <li>
+                    Leveraged Mission Planner for mission design, configuration,
+                    and execution, providing a user-friendly interface to plan
+                    autonomous flight paths, monitor real-time telemetry, and
+                    fine-tune drone performance.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b>Video:</b>
+                <a
+                  href="https://www.youtube.com/watch?v=NlfJVmCRwlk"
+                  target="_blank"
+                  >Drone</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ li {
 }
 
 .gap-t {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .img {
@@ -65,4 +65,21 @@ li {
 .margin {
   margin-left: 2%;
   margin-right: 2%;
+}
+
+.ExperienceList {
+  padding-left: 1.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ExperienceList > li {
+  list-style: disc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.Summary {
+  font-size: 1.2rem;
+  text-align: justify;
 }
